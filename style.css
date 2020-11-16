@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+
+.section{
+    float: left;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.section h1 a{
+    color: blue;
+    text-decoration: none;
+}
+
+
+.section1{
+    background:  #7d4fff;
+}
+
+.section2{
+    background: #12adc9;
+}
+
+
+h1{
+    font-weight: 800;
+    font-size: 5vw;
+    line-height: 1em;
+}
+
+@media (max-width: 768px){
+    .section{
+        display: block;
+        height: 50%;
+        width: 100%;
+    }
+    h1{
+        font-size: 16vw;
+        padding: 3rem;
+    }
+}
